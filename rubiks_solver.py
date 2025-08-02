@@ -1,4 +1,4 @@
-# backend/rubiks_solver.py
+
 
 class RubiksCube:
     def __init__(self):
@@ -143,6 +143,7 @@ class RubiksCube:
         self.__init__()
 
     def solve(self):
-        # For now, just reset to solved state
+    
         self.reset()
         return "Cube reset to solved"
+
